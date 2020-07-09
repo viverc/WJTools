@@ -17,12 +17,12 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  判断手机号
  */
--(BOOL)wj_isVAlidPhoneNumber;
+- (BOOL)wj_isVAlidPhoneNumber;
 
 /**
  判断是否是邮箱
  */
--(BOOL)wj_isValidEmail;
+- (BOOL)wj_isValidEmail;
 
 /**
  判断是否是空字符
@@ -32,27 +32,27 @@ NS_ASSUME_NONNULL_BEGIN
 /**
 判断是否是URL
 */
--(BOOL)wj_isValidUrl;
+- (BOOL)wj_isValidUrl;
 
 /**
  判断密码是否是6-18位并且含数字跟字母
 */
--(BOOL)wj_isPassword;
+- (BOOL)wj_isPassword;
 
 /**
  字符串转NSData
  */
--(NSData *)wj_convertToData;
+- (NSData *)wj_convertToData;
 
 /**
  NSData转字符串
  */
-+(NSString *)wj_getStringFromData:(NSData *)data;
++ (NSString *)wj_getStringFromData:(NSData *)data;
 
 /**
  获取系统版本号
  */
-+(NSString *)wj_getMyApplicationVersion;
++ (NSString *)wj_getMyApplicationVersion;
 
 /**
  获取手机型号
@@ -62,22 +62,22 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  获取APP的名字
  */
-+(NSString *)wj_getMyApplicationName;
++ (NSString *)wj_getMyApplicationName;
 
 /**
  获取手机的名字
  */
-+(NSString *)wj_getMyPhoneName;
++ (NSString *)wj_getMyPhoneName;
 
 /**
  获取设备名称
  */
-+(NSString *)wj_getMyDeviceName;
++ (NSString *)wj_getMyDeviceName;
 
 /**
  时间戳转时间
  */
--(NSDate *)wj_dateValueWithMillisecondsSince1970;
+- (NSDate *)wj_dateValueWithMillisecondsSince1970;
 
 /**
  *  计算属性字符文本占用的宽高
@@ -86,7 +86,14 @@ NS_ASSUME_NONNULL_BEGIN
  *  @param lineSpacing 行间距
  *  @return 占用的宽高
  */
--(CGSize)wj_attrStrSizeWithFont:(UIFont *)font andmaxSize:(CGSize)maxSize lineSpacing:(CGFloat)lineSpacing;
+- (CGSize)wj_attrStrSizeWithFont:(UIFont *)font andmaxSize:(CGSize)maxSize lineSpacing:(CGFloat)lineSpacing;
+
+/**
+ 中文转义
+ */
+- (NSString *)wj_convertChinese;
+
+
 @end
 
 NS_ASSUME_NONNULL_END
