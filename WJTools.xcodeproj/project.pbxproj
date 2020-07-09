@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD140D822462904F00A1A5BE /* NSString+WJTools.m in Sources */ = {isa = PBXBuildFile; fileRef = DD140D812462904F00A1A5BE /* NSString+WJTools.m */; };
+		DD140D85246296BB00A1A5BE /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD140D83246296BB00A1A5BE /* SceneDelegate.m */; };
 		DD5A8E76244D231E000899AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5A8E75244D231E000899AB /* AppDelegate.m */; };
-		DD5A8E79244D231E000899AB /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5A8E78244D231E000899AB /* SceneDelegate.m */; };
 		DD5A8E7C244D231E000899AB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5A8E7B244D231E000899AB /* ViewController.m */; };
 		DD5A8E7F244D231E000899AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD5A8E7D244D231E000899AB /* Main.storyboard */; };
 		DD5A8E81244D2322000899AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD5A8E80244D2322000899AB /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 		DD5A8E87244D2322000899AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5A8E86244D2322000899AB /* main.m */; };
 		DD5A8E91244D2322000899AB /* WJToolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5A8E90244D2322000899AB /* WJToolsTests.m */; };
 		DD5A8E9C244D2322000899AB /* WJToolsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5A8E9B244D2322000899AB /* WJToolsUITests.m */; };
+		DD5A8EAC244D2391000899AB /* WJTools.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5A8EAB244D2391000899AB /* WJTools.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +38,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DD5A8E71244D231E000899AB /* WJTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WJTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD140D802462904F00A1A5BE /* NSString+WJTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+WJTools.h"; sourceTree = "<group>"; };
+		DD140D812462904F00A1A5BE /* NSString+WJTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+WJTools.m"; sourceTree = "<group>"; };
+		DD140D83246296BB00A1A5BE /* SceneDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		DD140D84246296BB00A1A5BE /* SceneDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		DD5A8E71244D231E000899AB /* 我的工具.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "我的工具.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD5A8E74244D231E000899AB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DD5A8E75244D231E000899AB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		DD5A8E77244D231E000899AB /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		DD5A8E78244D231E000899AB /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		DD5A8E7A244D231E000899AB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		DD5A8E7B244D231E000899AB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		DD5A8E7E244D231E000899AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -54,6 +58,8 @@
 		DD5A8E97244D2322000899AB /* WJToolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WJToolsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD5A8E9B244D2322000899AB /* WJToolsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJToolsUITests.m; sourceTree = "<group>"; };
 		DD5A8E9D244D2322000899AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD5A8EAA244D2391000899AB /* WJTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJTools.h; sourceTree = "<group>"; };
+		DD5A8EAB244D2391000899AB /* WJTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJTools.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,7 +100,7 @@
 		DD5A8E72244D231E000899AB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DD5A8E71244D231E000899AB /* WJTools.app */,
+				DD5A8E71244D231E000899AB /* 我的工具.app */,
 				DD5A8E8C244D2322000899AB /* WJToolsTests.xctest */,
 				DD5A8E97244D2322000899AB /* WJToolsUITests.xctest */,
 			);
@@ -104,10 +110,11 @@
 		DD5A8E73244D231E000899AB /* WJTools */ = {
 			isa = PBXGroup;
 			children = (
+				DD5A8EA9244D2375000899AB /* 工具 */,
 				DD5A8E74244D231E000899AB /* AppDelegate.h */,
 				DD5A8E75244D231E000899AB /* AppDelegate.m */,
-				DD5A8E77244D231E000899AB /* SceneDelegate.h */,
-				DD5A8E78244D231E000899AB /* SceneDelegate.m */,
+				DD140D84246296BB00A1A5BE /* SceneDelegate.h */,
+				DD140D83246296BB00A1A5BE /* SceneDelegate.m */,
 				DD5A8E7A244D231E000899AB /* ViewController.h */,
 				DD5A8E7B244D231E000899AB /* ViewController.m */,
 				DD5A8E7D244D231E000899AB /* Main.storyboard */,
@@ -137,6 +144,17 @@
 			path = WJToolsUITests;
 			sourceTree = "<group>";
 		};
+		DD5A8EA9244D2375000899AB /* 工具 */ = {
+			isa = PBXGroup;
+			children = (
+				DD5A8EAA244D2391000899AB /* WJTools.h */,
+				DD5A8EAB244D2391000899AB /* WJTools.m */,
+				DD140D802462904F00A1A5BE /* NSString+WJTools.h */,
+				DD140D812462904F00A1A5BE /* NSString+WJTools.m */,
+			);
+			path = "工具";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -154,7 +172,7 @@
 			);
 			name = WJTools;
 			productName = WJTools;
-			productReference = DD5A8E71244D231E000899AB /* WJTools.app */;
+			productReference = DD5A8E71244D231E000899AB /* 我的工具.app */;
 			productType = "com.apple.product-type.application";
 		};
 		DD5A8E8B244D2322000899AB /* WJToolsTests */ = {
@@ -268,9 +286,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD5A8E7C244D231E000899AB /* ViewController.m in Sources */,
+				DD140D85246296BB00A1A5BE /* SceneDelegate.m in Sources */,
+				DD5A8EAC244D2391000899AB /* WJTools.m in Sources */,
+				DD140D822462904F00A1A5BE /* NSString+WJTools.m in Sources */,
 				DD5A8E76244D231E000899AB /* AppDelegate.m in Sources */,
 				DD5A8E87244D2322000899AB /* main.m in Sources */,
-				DD5A8E79244D231E000899AB /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,7 +395,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -427,7 +447,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -447,7 +467,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.zkjw.WJTools;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "我的工具";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -464,7 +484,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.zkjw.WJTools;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "我的工具";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

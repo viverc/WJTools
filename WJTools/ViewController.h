@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "WJTools.h"
 
 @interface ViewController : UIViewController
 
